@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e76f51;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {}
+
+.login {
+    background-color: rgb(64, 133, 224);
+    width: 400px;
+    color: red;
+    padding: 40px;
+    /*内边距*/
+    box-shadow: 10px 10px 25px #0000ff80;
+    /*盒子阴影*/
+    text-align: center;
+    /*文本对齐：居中*/
+}
+
+.login>input {
+    display: block;
+    margin: 20px auto;
+    /*外边距*/
+    text-align: center;
+    background: none;
+    padding: 5px;
+    font-size: 15px;
+    /*字体大小*/
+    border-radius: 25px;
+    /*边框半径*/
+    outline: none;
+    /*输入框轮廓：无*/
+    color: whitesmoke;
+}
+
+.yonghuming {
+    border: 3px solid slateblue;
+}
+
+.mima {
+    border: 3px solid slateblue;
+}
+
+.denglu {
+    border: 3px solid greenyellow;
+    width: 100px;
+    cursor: pointer;
+}
+
+.yonghuming:focus {
+    border-color: red;
+    width: 250px;
+    transition: 0.5s;
+    /*鼠标点击输入框添加动画*/
+}
+
+.mima:focus {
+    border-color: red;
+    width: 250px;
+    transition: 0.5s;
+}
+
+.denglu:hover {
+    background: greenyellow;
+    transition: 0.5s;
+    /*鼠标浮在登陆添加动画*/
+}
